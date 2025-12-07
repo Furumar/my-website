@@ -1,3 +1,4 @@
+
 const chatBtn = document.getElementById('chat-btn');
 const chatBox = document.getElementById('chat-box');
 const closeChat = document.getElementById('close-chat');
@@ -46,4 +47,3 @@ chatInput.addEventListener('keypress', (e) => {
         sendMsg.click();
     }
 });
-
